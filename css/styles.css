@@ -1,0 +1,232 @@
+/* Переменные */
+:root {
+  --background-color-header: #ffffff;
+  --background-color-main: #e5e5e5;
+  --background-color-tiam: #f5f4fa;
+  --background-color-footer: #2f303a;
+
+  --color-logo: #2196f3;
+  --color-accent: #2196f3;
+  --color-text-h: #212121;
+  --color-text-p: #757575;
+  --color-text-hero: #ffffff;
+  --color-text-mail: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  text-decoration: none;
+  margin: 0;
+}
+
+/* утилиты */
+.list {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* скрытый заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* outline: 2px solid tomato; */
+}
+
+.contanier {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+  width: 1200px;
+  /* outline: 2px solid tomato; */
+}
+
+.button {
+  display: inline-block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  background-color: var(--color-accent);
+  text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* Шапка сайта */
+.header {
+  background-color: var(--background-color-header);
+  border-bottom: 1px solid #ececec;
+}
+
+.header-contenier {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  color: var(--color-text-h);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-accent);
+}
+
+.link:focus {
+  color: var(--color-accent);
+}
+
+.contact-list {
+  display: flex;
+}
+
+.contact-list .item + .item {
+  margin-left: 50px;
+}
+
+.contact {
+  color: var(--color-text-p);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .curent {
+  color: var(--color-accent);
+}
+
+.nav-list .item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.link-nav {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* стилизация логотипа */
+.logo {
+  display: block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--color-logo);
+  text-decoration: none;
+}
+
+.black {
+  color: black;
+  margin-right: 93px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* подвал сайта */
+.footer-section {
+  background-color: var(--background-color-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.blok-address {
+  margin-top: 20px;
+}
+
+.contacts {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--color-text-mail);
+}
+
+.list-contacts {
+  margin-top: 9px;
+}

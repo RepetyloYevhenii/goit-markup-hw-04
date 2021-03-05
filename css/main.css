@@ -1,0 +1,121 @@
+/* секция герой */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-contenier {
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
+  text-align: center;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* оформление секций */
+.contanier .list-section {
+  display: flex;
+  justify-content: center;
+}
+
+.list-section .list-text + .list-text {
+  margin-left: 30px;
+}
+
+.work-list {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+
+  text-transform: uppercase;
+
+  color: var(--color-text-h);
+}
+
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.title-section {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--color-text-h);
+}
+
+.work-list .work-photo + .work-photo {
+  margin-left: 30px;
+}
+
+.title {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+
+  color: var(--color-text-h);
+}
+
+.text-team {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+.section-work {
+  padding-bottom: 94px;
+}
+
+.section-team {
+  background-color: var(--background-color-tiam);
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-photo {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list .team-photo + .team-photo {
+  margin-left: 30px;
+}
