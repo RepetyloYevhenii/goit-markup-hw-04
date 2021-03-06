@@ -1,4 +1,6 @@
 .portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-contenier {
@@ -8,8 +10,6 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .button-filter {
@@ -28,9 +28,9 @@
 
 .card-list {
   border: 1px solid #eeeeee;
-
   margin-left: 30px;
   margin-top: 30px;
+  width: 370px;
 }
 
 .subtitle {
@@ -58,8 +58,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-
+  line-height: 1.87;
   color: #757575;
 }
 
@@ -77,7 +76,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 
   text-align: center;
 
