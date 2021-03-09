@@ -45,16 +45,52 @@
   justify-content: center;
 }
 
-.list-text::before {
-  display: block;
-  content: "";
+.icon {
+  display: inline-flex;
   height: 120px;
+  width: 270px;
   margin-bottom: 30px;
-  background-image: url();
   background-color: #f5f4fa;
-  background-size: contain;
-  background-repeat: no-repeat;
+  justify-content: center;
   border-radius: 4px;
+}
+
+.icon-logo {
+  fill: #afb1b8;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+  fill: #2196f3;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-social {
+  display: inline-flex;
+  margin-bottom: 30px;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.team-list .icon-social + .icon-social {
+  margin-left: 10px;
+}
+
+.icon-social:hover,
+.icon-social:focus {
+  background-color: var(--color-accent);
+}
+
+.icon-team:hover,
+.icon-team:focus {
+  fill: #ffffff;
 }
 
 .list-section .list-text + .list-text {
@@ -139,6 +175,7 @@
 }
 
 .team-photo {
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -146,4 +183,64 @@
 
 .team-list .team-photo + .team-photo {
   margin-left: 30px;
+}
+
+.list-clients {
+  display: flex;
+}
+
+.linc-clients {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+
+.list-clients .clients + .clients {
+  margin-left: 30px;
+}
+
+.linc-clients:hover,
+.list-clients:focus {
+  border-color: var(--color-accent);
+}
+
+.icon-media {
+  display: inline-flex;
+  margin-top: 20px;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.media-list > .list-media + .list-media {
+  margin-left: 10px;
+}
+
+.icon-media:hover,
+.icon-media:focus {
+  background-color: var(--color-accent);
+}
+
+.media {
+  margin-left: 70px;
+}
+
+.text-media {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.media-list {
+  display: flex;
 }
