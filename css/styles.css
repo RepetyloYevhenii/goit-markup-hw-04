@@ -105,9 +105,15 @@ img {
   align-items: center;
 }
 
+.icon-item {
+  display: flex;
+  align-items: center;
+}
+
 .link {
   color: var(--color-text-h);
   text-decoration: none;
+  margin-left: 10px;
 }
 
 .link:hover {

@@ -86,10 +86,6 @@
 .icon-social:hover,
 .icon-social:focus {
   background-color: var(--color-accent);
-}
-
-.icon-team:hover,
-.icon-team:focus {
   fill: #ffffff;
 }
 
@@ -203,8 +199,9 @@
 }
 
 .linc-clients:hover,
-.list-clients:focus {
-  border-color: var(--color-accent);
+.linc-clients:focus {
+  border: 1px solid var(--color-accent);
+  fill: var(--color-accent);
 }
 
 .icon-media {
@@ -225,6 +222,7 @@
 .icon-media:hover,
 .icon-media:focus {
   background-color: var(--color-accent);
+  fill: #ffffff;
 }
 
 .media {
