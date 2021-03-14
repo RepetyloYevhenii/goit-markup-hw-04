@@ -86,6 +86,10 @@
 .icon-social:hover,
 .icon-social:focus {
   background-color: var(--color-accent);
+}
+
+.icon-social:hover .icon-team,
+.icon-social:focus .icon-team {
   fill: #ffffff;
 }
 
@@ -192,6 +196,7 @@
   justify-content: center;
   border-radius: 4px;
   border: 1px solid #afb1b8;
+  outline: none;
 }
 
 .list-clients .clients + .clients {
@@ -201,6 +206,10 @@
 .linc-clients:hover,
 .linc-clients:focus {
   border: 1px solid var(--color-accent);
+}
+
+.linc-clients:hover .icon-logo,
+.linc-clients:focus .icon-logo {
   fill: var(--color-accent);
 }
 

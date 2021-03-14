@@ -62,7 +62,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* justify-content: center; */
   width: 1200px;
   /* outline: 2px solid tomato; */
 }
@@ -118,12 +117,20 @@ img {
   margin-left: 10px;
 }
 
-.link:hover {
+.icon-contact {
+  /* height: 12px; */
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.link:hover,
+.link:focus {
   color: var(--color-accent);
 }
 
-.link:focus {
-  color: var(--color-accent);
+.link:hover .icon-contact,
+.link:focus .icon-contact {
+  fill: var(--color-accent);
 }
 
 .contact-list {
@@ -135,6 +142,8 @@ img {
 }
 
 .contact {
+  display: flex;
+  align-items: center;
   color: var(--color-text-p);
   font-family: Roboto;
   font-style: normal;
