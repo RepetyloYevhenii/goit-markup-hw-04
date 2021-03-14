@@ -118,9 +118,13 @@ img {
 }
 
 .icon-contact {
-  /* height: 12px; */
+  height: 12px;
   margin-right: 10px;
   fill: #757575;
+}
+
+.contact-smartphon {
+  height: 16px;
 }
 
 .link:hover,
